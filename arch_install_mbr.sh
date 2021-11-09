@@ -1,3 +1,4 @@
+cd /
 ln -sf /usr/share/zoneinfo/Europe/Zurich /etc/localtime
 hwclock --systohc
 sed -i '177s/.//' /etc/locale.gen
