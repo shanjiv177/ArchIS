@@ -18,7 +18,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 systemctl enable NetworkManager
 systemctl enable bluetooth
 
-useradd -m shanjiv
+useradd -mG wheel shanjiv
 
 echo shanjiv:shanjiv1707 | chpasswd
 
