@@ -1,6 +1,6 @@
 cd
 
-sudo pacman -S --no-confirm xorg gnome gnome-tweaks gparted zsh zsh-autosuggestions zsh-syntax-highlighting firefox noto-fonts ttf-croscore ttf-dejavu ttf-droid ttf-ubuntu-font-family ttf-indic-otf adobe-source-code-pro-fonts ttf-roboto gnu-free-fonts ttf-liberation
+sudo pacman -S --noconfirm xorg gnome gnome-tweaks gparted zsh zsh-autosuggestions zsh-syntax-highlighting firefox noto-fonts htop ttf-croscore ttf-dejavu ttf-droid ttf-ubuntu-font-family ttf-indic-otf adobe-source-code-pro-fonts ttf-roboto gnu-free-fonts ttf-liberation
 
 sudo systemctl enable gdm
 
@@ -19,11 +19,11 @@ makepkg -si PKGBUILD
 
 cd
 
-yay -S --no-confirm ttf-ms-fonts zoom
+yay -S --noconfirm ttf-ms-fonts zoom
 
-yay -S --no-confirm flatpak snapd snapd-glib
+yay -S --noconfirm flatpak snapd snapd-glib
 
-sudo pacman -S --no-confirm libreoffice-fresh vlc audacity kdenlive telegram-desktop
+sudo pacman -S --noconfirm libreoffice-fresh vlc audacity kdenlive telegram-desktop
 
 sudo reboot
 
