@@ -16,4 +16,4 @@ pacstrap /mnt linux linux-firmware nano vim intel-ucode linux-headers linux-docs
 
  genfstab -U /mnt >> /mnt/etc/fstab
 
- arch-chroot
+ arch-chroot /mnt
