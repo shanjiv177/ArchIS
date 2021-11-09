@@ -1,6 +1,6 @@
 cd
 
-sudo pacman -S --noconfirm xorg gnome gnome-tweaks gparted zsh zsh-autosuggestions zsh-syntax-highlighting firefox noto-fonts htop ttf-croscore ttf-dejavu ttf-droid ttf-ubuntu-font-family ttf-indic-otf adobe-source-code-pro-fonts ttf-roboto gnu-free-fonts ttf-liberation
+sudo pacman -S --noconfirm xorg gnome gnome-tweaks gparted zsh zsh-autosuggestions zsh-syntax-highlighting materia-gtk-theme papirus-icon-theme firefox noto-fonts htop ttf-croscore ttf-dejavu ttf-droid ttf-ubuntu-font-family ttf-indic-otf adobe-source-code-pro-fonts ttf-roboto gnu-free-fonts ttf-liberation
 
 sudo systemctl enable gdm
 
