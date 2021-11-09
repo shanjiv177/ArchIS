@@ -18,11 +18,11 @@ grub-mkconfig -o /boot/grub/grub.cfg
 systemctl enable NetworkManager
 systemctl enable bluetooth
 
-useradd -mG shanjiv
+useradd -mG wheel shanjiv
 
 echo shanjiv:shanjiv1707 | chpasswd
 
-echo "shanjiv ALL=(ALL) ALL" >> /etc/sudoers.d/ermanno
+echo "shanjiv ALL=(ALL) ALL" >> /etc/sudoers.d/shanjiv
 
 
 echo "Type exit and umount -a"
