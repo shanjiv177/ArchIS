@@ -10,7 +10,7 @@ echo "::1       localhost" >> /etc/hosts
 echo "127.0.1.1 myarchpc.localdomain    arch" >> /etc/hosts
 echo root:shanjiv1707 | chpasswd
 
-pacman -S --noconfirm grub networkmanager network-manager-applet dialog wpa_supplicant linux-headers base-devel mtools dosfstools reflector git curl wget xdg-user-dirs xdg-utils ntfs-3g bluez bluez-utils os-prober xorg gnome gnome-tweaks zsh
+pacman -S --noconfirm grub networkmanager network-manager-applet dialog wpa_supplicant linux-headers base-devel mtools dosfstools reflector git curl wget xdg-user-dirs xdg-utils ntfs-3g bluez bluez-utils os-prober
 
 grub-install --target=i386-pc /dev/sda #/dev/vda for virtualbox
 grub-mkconfig -o /boot/grub/grub.cfg
